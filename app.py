@@ -70,7 +70,7 @@ def check():
     body = "This is a test email."
 
     send_email(to_email, to_name, subject, body)
-    time.sleep(30)
+    time.sleep(15)
 
     bounced_emails = check_bounced_emails(to_email)
     if to_email in bounced_emails:
