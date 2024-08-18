@@ -74,7 +74,7 @@ def check():
 
     bounced_emails = check_bounced_emails(to_email)
     if to_email in bounced_emails:
-        result = f"Email to {to_email} bounced or was blocked."
+        result = f"Email to {to_email} bounced."
     else:
         result = f"Email to {to_email} delivered successfully."
 
